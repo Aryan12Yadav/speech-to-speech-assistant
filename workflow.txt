@@ -1,0 +1,15 @@
+User bolta hai
+     ↓
+Auto generate → session_id (UUID)
+     ↓
+STT → user_text
+     ↓
+Chatbot → bot_text
+     ↓
+TTS → audio file
+     ↓
+S3 → input audio + output audio save
+     ↓
+MongoDB → session_id, user_text, bot_text, s3_urls, timestamp save
+     ↓
+Response browser ko

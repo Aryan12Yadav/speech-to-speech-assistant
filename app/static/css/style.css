@@ -1,0 +1,23 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.card {
+    border-radius: 16px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+#status {
+    font-size: 14px;
+    color: #adb5bd;
+}
+
+#userText, #botText {
+    font-size: 14px;
+    min-height: 20px;
+    word-wrap: break-word;
+}
+
+button {
+    min-width: 90px;
+}
