@@ -9,7 +9,7 @@ def get_response(text):
                 "user_id": "voice_user",
                 "query": text
             },
-            timeout=30
+            timeout=90
         )
         print(f"API Status: {res.status_code}")
         print(f"API Response: {res.text}")
